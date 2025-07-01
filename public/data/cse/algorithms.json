@@ -1,0 +1,391 @@
+{
+  "subject": "Algorithms",
+  "branch": "CSE",
+  "description": "Comprehensive study materials for algorithm design and analysis, covering fundamental concepts, complexity theory, and advanced algorithmic techniques.",
+  "lastUpdated": "2025-06-30",
+  "totalNotes": 8,
+  "notes": [
+    {
+      "id": "algo-001",
+      "title": "Introduction to Algorithms",
+      "description": "Understanding algorithm fundamentals and complexity analysis",
+      "type": "content",
+      "difficulty": "Beginner",
+      "topics": ["Big O Notation", "Algorithm Analysis", "Asymptotic Complexity"],
+      "content": {
+        "overview": "Algorithms are step-by-step procedures for solving computational problems. Understanding their efficiency is crucial for writing optimal code.",
+        "keyPoints": [
+          {
+            "title": "What is an Algorithm?",
+            "explanation": "An algorithm is a finite sequence of well-defined instructions for solving a problem. It must be unambiguous, have clear input/output, and terminate in finite time."
+          },
+          {
+            "title": "Algorithm Analysis",
+            "explanation": "We analyze algorithms to predict their resource consumption (time and space). This helps us choose the best algorithm for a given problem size."
+          },
+          {
+            "title": "Big O Notation (O)",
+            "explanation": "Describes the upper bound of algorithm's time complexity. O(n) means linear time, O(n²) means quadratic time. It represents worst-case scenario."
+          },
+          {
+            "title": "Omega Notation (Ω)",
+            "explanation": "Describes the lower bound or best-case time complexity. Ω(n) means the algorithm will take at least linear time in the best case."
+          },
+          {
+            "title": "Theta Notation (Θ)",
+            "explanation": "Describes tight bounds when upper and lower bounds are the same. Θ(n) means the algorithm takes exactly linear time in all cases."
+          }
+        ],
+        "examples": [
+          {
+            "title": "Linear Search",
+            "complexity": "O(n)",
+            "explanation": "Searching through an array element by element. In worst case, we check all n elements."
+          },
+          {
+            "title": "Binary Search",
+            "complexity": "O(log n)",
+            "explanation": "Searching in a sorted array by repeatedly dividing search space in half. Much more efficient than linear search."
+          }
+        ],
+        "practiceQuestions": [
+          "What is the time complexity of finding the maximum element in an unsorted array?",
+          "Compare the space complexity of iterative vs recursive algorithms.",
+          "Why is O(log n) better than O(n) for large datasets?"
+        ],
+        "steps": [
+          {
+            "title": "Understanding Algorithms",
+            "explanation": "An algorithm is a step-by-step procedure to solve a problem. It must be finite, well-defined, and effective.",
+            "visual": "Problem → Algorithm → Solution",
+            "highlight": []
+          },
+          {
+            "title": "Time Complexity Analysis",
+            "explanation": "We measure how execution time grows with input size. This helps us predict performance.",
+            "visual": "Input Size: n → Time: f(n)",
+            "highlight": []
+          },
+          {
+            "title": "Big O Notation",
+            "explanation": "O(f(n)) describes the upper bound of time complexity. It represents worst-case scenario.",
+            "visual": "O(1) < O(log n) < O(n) < O(n log n) < O(n²)",
+            "highlight": []
+          }
+        ],
+        "codeExample": {
+          "title": "Linear Search Example",
+          "language": "javascript",
+          "code": "function linearSearch(arr, target) {\n  for (let i = 0; i < arr.length; i++) {\n    if (arr[i] === target) {\n      return i; // Found at index i\n    }\n  }\n  return -1; // Not found\n}\n\n// Test the function\nconst numbers = [3, 7, 1, 9, 4];\nconst result = linearSearch(numbers, 9);\nconsole.log('Index:', result);",
+          "testCases": [
+            {
+              "input": "linearSearch([1, 2, 3, 4, 5], 3)",
+              "expected": "2",
+              "test": "linearSearch([1, 2, 3, 4, 5], 3)"
+            },
+            {
+              "input": "linearSearch([1, 2, 3, 4, 5], 6)",
+              "expected": "-1",
+              "test": "linearSearch([1, 2, 3, 4, 5], 6)"
+            }
+          ]
+        },
+        "visualization": {
+          "type": "array",
+          "data": {
+            "array": [3, 7, 1, 9, 4],
+            "steps": [
+              {
+                "title": "Start Search",
+                "description": "Begin searching from the first element",
+                "highlight": [0]
+              },
+              {
+                "title": "Check Element",
+                "description": "Compare current element with target",
+                "highlight": [1]
+              },
+              {
+                "title": "Continue Search",
+                "description": "Move to next element if not found",
+                "highlight": [2]
+              },
+              {
+                "title": "Found Target",
+                "description": "Target found at index 3",
+                "highlight": [3]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "algo-002",
+      "title": "Sorting Algorithms",
+      "description": "Comprehensive guide to sorting algorithms and their complexities",
+      "type": "content",
+      "difficulty": "Intermediate",
+      "topics": ["Bubble Sort", "Merge Sort", "Quick Sort", "Heap Sort", "Comparison Sorting"],
+      "content": {
+        "overview": "Sorting is fundamental in computer science. Different algorithms have different time/space complexities and are suitable for different scenarios.",
+        "keyPoints": [
+          {
+            "title": "Bubble Sort",
+            "explanation": "Simplest sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they're in wrong order. Time: O(n²), Space: O(1). Good for learning but inefficient for large datasets."
+          },
+          {
+            "title": "Selection Sort",
+            "explanation": "Finds the minimum element and places it at the beginning, then repeats for remaining elements. Time: O(n²), Space: O(1). Performs fewer swaps than bubble sort."
+          },
+          {
+            "title": "Insertion Sort",
+            "explanation": "Builds sorted array one element at a time by inserting each element into its correct position. Time: O(n²) worst case, O(n) best case, Space: O(1). Efficient for small datasets."
+          },
+          {
+            "title": "Merge Sort",
+            "explanation": "Divide-and-conquer algorithm that divides array into halves, sorts them recursively, then merges. Time: O(n log n), Space: O(n). Stable and predictable performance."
+          },
+          {
+            "title": "Quick Sort",
+            "explanation": "Picks a pivot element and partitions array around it, then recursively sorts subarrays. Time: O(n log n) average, O(n²) worst case, Space: O(log n). Very efficient in practice."
+          },
+          {
+            "title": "Heap Sort",
+            "explanation": "Uses binary heap data structure. Builds max heap, then repeatedly extracts maximum. Time: O(n log n), Space: O(1). Not stable but guaranteed O(n log n) performance."
+          }
+        ],
+        "comparison": [
+          {
+            "algorithm": "Bubble Sort",
+            "timeComplexity": "O(n²)",
+            "spaceComplexity": "O(1)",
+            "stable": "Yes",
+            "useCase": "Educational purposes only"
+          },
+          {
+            "algorithm": "Merge Sort",
+            "timeComplexity": "O(n log n)",
+            "spaceComplexity": "O(n)",
+            "stable": "Yes",
+            "useCase": "When stability is required"
+          },
+          {
+            "algorithm": "Quick Sort",
+            "timeComplexity": "O(n log n) avg",
+            "spaceComplexity": "O(log n)",
+            "stable": "No",
+            "useCase": "General purpose, fastest in practice"
+          }
+        ],
+        "practiceQuestions": [
+          "When would you choose merge sort over quick sort?",
+          "Why is quick sort generally faster than merge sort despite same average complexity?",
+          "How can you make quick sort stable?"
+        ],
+        "steps": [
+          {
+            "title": "Understanding Sorting",
+            "explanation": "Sorting arranges elements in a specific order (ascending or descending). It's fundamental for searching and data organization.",
+            "visual": "Unsorted: [64, 34, 25, 12] → Sorted: [12, 25, 34, 64]",
+            "highlight": []
+          },
+          {
+            "title": "Bubble Sort Process",
+            "explanation": "Compare adjacent elements and swap if they're in wrong order. Repeat until no swaps needed.",
+            "visual": "Compare pairs: (64,34) → swap → (34,64)",
+            "highlight": [0, 1]
+          },
+          {
+            "title": "Quick Sort Partitioning",
+            "explanation": "Choose a pivot, partition array so smaller elements are left, larger elements are right.",
+            "visual": "Pivot: 25 → [12] 25 [64, 34]",
+            "highlight": [2]
+          },
+          {
+            "title": "Merge Sort Divide",
+            "explanation": "Recursively divide array into halves until single elements, then merge back in sorted order.",
+            "visual": "[64,34,25,12] → [64,34] [25,12] → [64][34] [25][12]",
+            "highlight": []
+          }
+        ],
+        "codeExample": {
+          "title": "Quick Sort Implementation",
+          "language": "javascript",
+          "code": "function quickSort(arr, low = 0, high = arr.length - 1) {\n  if (low < high) {\n    // Partition the array\n    let pi = partition(arr, low, high);\n    \n    // Recursively sort elements before and after partition\n    quickSort(arr, low, pi - 1);\n    quickSort(arr, pi + 1, high);\n  }\n  return arr;\n}\n\nfunction partition(arr, low, high) {\n  let pivot = arr[high]; // Choose last element as pivot\n  let i = low - 1; // Index of smaller element\n  \n  for (let j = low; j < high; j++) {\n    if (arr[j] < pivot) {\n      i++;\n      [arr[i], arr[j]] = [arr[j], arr[i]]; // Swap\n    }\n  }\n  [arr[i + 1], arr[high]] = [arr[high], arr[i + 1]];\n  return i + 1;\n}\n\n// Test the function\nlet numbers = [64, 34, 25, 12, 22, 11, 90];\nconsole.log('Original:', numbers);\nquickSort(numbers);\nconsole.log('Sorted:', numbers);",
+          "testCases": [
+            {
+              "input": "quickSort([64, 34, 25, 12])",
+              "expected": "[12, 25, 34, 64]",
+              "test": "JSON.stringify(quickSort([64, 34, 25, 12]))"
+            },
+            {
+              "input": "quickSort([5, 2, 8, 1, 9])",
+              "expected": "[1, 2, 5, 8, 9]",
+              "test": "JSON.stringify(quickSort([5, 2, 8, 1, 9]))"
+            }
+          ]
+        },
+        "visualization": {
+          "type": "array",
+          "data": {
+            "array": [64, 34, 25, 12, 22, 11, 90],
+            "steps": [
+              {
+                "title": "Initial Array",
+                "description": "Starting with unsorted array",
+                "highlight": []
+              },
+              {
+                "title": "Choose Pivot",
+                "description": "Select last element (90) as pivot",
+                "highlight": [6]
+              },
+              {
+                "title": "Partition Process",
+                "description": "Move elements smaller than pivot to left",
+                "highlight": [0, 1, 2, 3, 4, 5]
+              },
+              {
+                "title": "Pivot in Position",
+                "description": "Pivot is now in correct position",
+                "highlight": [6]
+              },
+              {
+                "title": "Recursively Sort",
+                "description": "Apply same process to left and right subarrays",
+                "highlight": [0, 1, 2, 3, 4, 5]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "algo-003",
+      "title": "Searching Algorithms",
+      "description": "Linear search, binary search, interpolation search, exponential search",
+      "type": "pdf",
+      "url": "https://www.tutorialspoint.com/data_structures_algorithms/data_structures_algorithms_tutorial.pdf",
+      "size": "1.8 MB",
+      "pages": 35,
+      "difficulty": "Beginner",
+      "topics": ["Linear Search", "Binary Search", "Search Optimization"],
+      "downloadable": true
+    },
+    {
+      "id": "algo-004",
+      "title": "Graph Algorithms",
+      "description": "BFS, DFS, shortest path algorithms (Dijkstra, Bellman-Ford), minimum spanning tree",
+      "type": "pdf",
+      "url": "https://web.stanford.edu/class/cs97si/06-basic-graph-algorithms.pdf",
+      "size": "4.1 MB",
+      "pages": 78,
+      "difficulty": "Advanced",
+      "topics": ["BFS", "DFS", "Dijkstra", "Bellman-Ford", "MST", "Kruskal", "Prim"],
+      "downloadable": true
+    },
+    {
+      "id": "algo-005",
+      "title": "Dynamic Programming",
+      "description": "Principles of dynamic programming, memoization, classic DP problems",
+      "type": "pdf",
+      "url": "https://web.stanford.edu/class/cs97si/04-dynamic-programming.pdf",
+      "size": "3.7 MB",
+      "pages": 68,
+      "difficulty": "Advanced",
+      "topics": ["Memoization", "Tabulation", "Optimal Substructure", "Overlapping Subproblems"],
+      "downloadable": true
+    },
+    {
+      "id": "algo-006",
+      "title": "Greedy Algorithms",
+      "description": "Greedy strategy, activity selection, fractional knapsack, Huffman coding",
+      "type": "pdf",
+      "url": "https://web.stanford.edu/class/cs97si/03-greedy-algorithms.pdf",
+      "size": "2.9 MB",
+      "pages": 52,
+      "difficulty": "Intermediate",
+      "topics": ["Greedy Strategy", "Activity Selection", "Huffman Coding", "Fractional Knapsack"],
+      "downloadable": true
+    },
+    {
+      "id": "algo-007",
+      "title": "Divide and Conquer",
+      "description": "Divide and conquer paradigm, merge sort, quick sort, binary search, matrix multiplication",
+      "type": "pdf",
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15451-s10/www/lectures/lect0203.pdf",
+      "size": "3.4 MB",
+      "pages": 58,
+      "difficulty": "Intermediate",
+      "topics": ["Divide and Conquer", "Recurrence Relations", "Master Theorem"],
+      "downloadable": true
+    },
+    {
+      "id": "algo-008",
+      "title": "Advanced Topics",
+      "description": "Network flows, string algorithms, computational geometry, approximation algorithms",
+      "type": "pdf",
+      "url": "https://www.cs.princeton.edu/courses/archive/spr04/cos226/lectures/maxflow.4up.pdf",
+      "size": "5.2 MB",
+      "pages": 95,
+      "difficulty": "Expert",
+      "topics": ["Network Flows", "String Matching", "KMP Algorithm", "Computational Geometry"],
+      "downloadable": true
+    }
+  ],
+  "practiceProblems": [
+    {
+      "title": "Algorithm Practice Set 1",
+      "description": "50+ practice problems with solutions",
+      "url": "https://www.geeksforgeeks.org/fundamentals-of-algorithms/",
+      "difficulty": "Mixed"
+    },
+    {
+      "title": "Previous Year GATE Questions",
+      "description": "Algorithm questions from GATE 2015-2024",
+      "url": "https://www.gatevidyalay.com/tag/algorithms/",
+      "difficulty": "GATE Level"
+    },
+    {
+      "title": "LeetCode Algorithm Problems",
+      "description": "Curated algorithm problems for practice",
+      "url": "https://leetcode.com/problemset/algorithms/",
+      "difficulty": "Mixed"
+    }
+  ],
+  "videoLectures": [
+    {
+      "title": "MIT Introduction to Algorithms",
+      "instructor": "Prof. Erik Demaine",
+      "url": "https://youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb",
+      "duration": "24 hours"
+    },
+    {
+      "title": "Stanford Algorithms Specialization",
+      "instructor": "Prof. Tim Roughgarden",
+      "url": "https://www.coursera.org/specializations/algorithms",
+      "duration": "16 hours"
+    },
+    {
+      "title": "NPTEL Data Structures and Algorithms",
+      "instructor": "Prof. Naveen Garg",
+      "url": "https://nptel.ac.in/courses/106102064",
+      "duration": "40 hours"
+    }
+  ],
+  "references": [
+    {
+      "title": "Introduction to Algorithms (CLRS)",
+      "authors": "Cormen, Leiserson, Rivest, Stein",
+      "edition": "4th Edition",
+      "isbn": "978-0262046305"
+    },
+    {
+      "title": "Algorithm Design",
+      "authors": "Jon Kleinberg, Éva Tardos",
+      "edition": "1st Edition",
+      "isbn": "978-0321295354"
+    }
+  ]
+}

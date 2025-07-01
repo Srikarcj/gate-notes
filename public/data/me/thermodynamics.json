@@ -1,0 +1,148 @@
+{
+  "subject": "Thermodynamics",
+  "branch": "ME",
+  "description": "Complete study materials for thermodynamics covering laws of thermodynamics, heat engines, refrigeration cycles, and properties of substances.",
+  "lastUpdated": "2024-12-30",
+  "totalNotes": 8,
+  "estimatedStudyTime": "45 hours",
+  "notes": [
+    {
+      "id": "td-001",
+      "title": "Basic Concepts and Definitions",
+      "description": "Thermodynamic systems, properties, processes, cycles, equilibrium",
+      "type": "pdf",
+      "url": "https://nptel.ac.in/content/storage2/courses/112103017/pdf/module1/lecture1.pdf",
+      "size": "2.6 MB",
+      "pages": 42,
+      "difficulty": "Beginner",
+      "topics": ["System", "Properties", "Processes", "Equilibrium"],
+      "downloadable": true
+    },
+    {
+      "id": "td-002",
+      "title": "First Law of Thermodynamics",
+      "description": "Energy conservation, internal energy, enthalpy, work and heat transfer",
+      "type": "pdf",
+      "url": "https://nptel.ac.in/content/storage2/courses/112103017/pdf/module2/lecture5.pdf",
+      "size": "3.4 MB",
+      "pages": 58,
+      "difficulty": "Intermediate",
+      "topics": ["First Law", "Internal Energy", "Enthalpy", "Work"],
+      "downloadable": true
+    },
+    {
+      "id": "td-003",
+      "title": "Second Law of Thermodynamics",
+      "description": "Entropy, reversible and irreversible processes, Carnot cycle, efficiency",
+      "type": "pdf",
+      "url": "https://nptel.ac.in/content/storage2/courses/112103017/pdf/module3/lecture12.pdf",
+      "size": "4.1 MB",
+      "pages": 68,
+      "difficulty": "Advanced",
+      "topics": ["Second Law", "Entropy", "Carnot Cycle", "Efficiency"],
+      "downloadable": true
+    },
+    {
+      "id": "td-004",
+      "title": "Properties of Pure Substances",
+      "description": "Phase diagrams, steam tables, ideal gas laws, equations of state",
+      "type": "pdf",
+      "url": "https://nptel.ac.in/content/storage2/courses/112103017/pdf/module4/lecture18.pdf",
+      "size": "3.8 MB",
+      "pages": 62,
+      "difficulty": "Intermediate",
+      "topics": ["Phase Diagrams", "Steam Tables", "Ideal Gas", "EOS"],
+      "downloadable": true
+    },
+    {
+      "id": "td-005",
+      "title": "Power Cycles",
+      "description": "Otto cycle, Diesel cycle, Brayton cycle, Rankine cycle, gas turbines",
+      "type": "pdf",
+      "url": "https://nptel.ac.in/content/storage2/courses/112103017/pdf/module5/lecture25.pdf",
+      "size": "4.5 MB",
+      "pages": 75,
+      "difficulty": "Advanced",
+      "topics": ["Otto Cycle", "Diesel Cycle", "Brayton Cycle", "Rankine Cycle"],
+      "downloadable": true
+    },
+    {
+      "id": "td-006",
+      "title": "Refrigeration Cycles",
+      "description": "Vapor compression cycle, heat pumps, COP, refrigerants",
+      "type": "pdf",
+      "url": "https://nptel.ac.in/content/storage2/courses/112103017/pdf/module6/lecture32.pdf",
+      "size": "3.9 MB",
+      "pages": 58,
+      "difficulty": "Advanced",
+      "topics": ["Refrigeration", "Heat Pumps", "COP", "Refrigerants"],
+      "downloadable": true
+    },
+    {
+      "id": "td-007",
+      "title": "Psychrometry",
+      "description": "Moist air properties, psychrometric chart, air conditioning processes",
+      "type": "pdf",
+      "url": "https://nptel.ac.in/content/storage2/courses/112103017/pdf/module7/lecture38.pdf",
+      "size": "3.2 MB",
+      "pages": 48,
+      "difficulty": "Intermediate",
+      "topics": ["Moist Air", "Psychrometric Chart", "Air Conditioning"],
+      "downloadable": true
+    },
+    {
+      "id": "td-008",
+      "title": "Chemical Thermodynamics",
+      "description": "Chemical reactions, combustion, adiabatic flame temperature, equilibrium",
+      "type": "pdf",
+      "url": "https://nptel.ac.in/content/storage2/courses/112103017/pdf/module8/lecture42.pdf",
+      "size": "3.7 MB",
+      "pages": 55,
+      "difficulty": "Expert",
+      "topics": ["Chemical Reactions", "Combustion", "Flame Temperature"],
+      "downloadable": true
+    }
+  ],
+  "practiceProblems": [
+    {
+      "title": "Thermodynamics Practice Problems",
+      "description": "Comprehensive practice problems for thermodynamics",
+      "url": "https://www.engineeringtoolbox.com/thermodynamics-d_1208.html",
+      "difficulty": "Mixed"
+    },
+    {
+      "title": "GATE ME Thermodynamics",
+      "description": "Thermodynamics questions from GATE 2015-2024",
+      "url": "https://www.gatevidyalay.com/tag/thermodynamics/",
+      "difficulty": "GATE Level"
+    }
+  ],
+  "videoLectures": [
+    {
+      "title": "NPTEL Thermodynamics",
+      "instructor": "Prof. S.K. Som",
+      "url": "https://nptel.ac.in/courses/112103017",
+      "duration": "40 hours"
+    },
+    {
+      "title": "MIT Thermodynamics and Kinetics",
+      "instructor": "Prof. Keith Nelson",
+      "url": "https://ocw.mit.edu/courses/chemistry/5-60-thermodynamics-kinetics-spring-2008/",
+      "duration": "36 hours"
+    }
+  ],
+  "references": [
+    {
+      "title": "Thermodynamics: An Engineering Approach",
+      "authors": "Yunus Cengel, Michael Boles",
+      "edition": "8th Edition",
+      "isbn": "978-0073398174"
+    },
+    {
+      "title": "Fundamentals of Engineering Thermodynamics",
+      "authors": "Michael Moran, Howard Shapiro",
+      "edition": "8th Edition",
+      "isbn": "978-1118412930"
+    }
+  ]
+}

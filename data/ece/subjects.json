@@ -1,0 +1,78 @@
+{
+  "branch": "Electronics & Communication Engineering (ECE)",
+  "code": "ece",
+  "subjects": [
+    {
+      "id": "signals-systems",
+      "name": "Signals and Systems",
+      "description": "Continuous and discrete signals, Fourier transforms, Laplace transforms, Z-transforms",
+      "icon": "📡"
+    },
+    {
+      "id": "analog-circuits",
+      "name": "Analog Circuits",
+      "description": "Operational amplifiers, filters, oscillators, voltage regulators, analog IC design",
+      "icon": "🔌"
+    },
+    {
+      "id": "digital-circuits",
+      "name": "Digital Circuits",
+      "description": "Logic gates, combinational circuits, sequential circuits, memory devices",
+      "icon": "💾"
+    },
+    {
+      "id": "control-systems",
+      "name": "Control Systems",
+      "description": "Feedback systems, stability analysis, root locus, frequency response, PID controllers",
+      "icon": "🎛️"
+    },
+    {
+      "id": "communication-systems",
+      "name": "Communication Systems",
+      "description": "Amplitude modulation, frequency modulation, digital communication, error correction",
+      "icon": "📻"
+    },
+    {
+      "id": "electromagnetics",
+      "name": "Electromagnetics",
+      "description": "Maxwell's equations, wave propagation, transmission lines, antennas",
+      "icon": "⚡"
+    },
+    {
+      "id": "microprocessors",
+      "name": "Microprocessors",
+      "description": "8085/8086 architecture, assembly language, interfacing, microcontrollers",
+      "icon": "🖥️"
+    },
+    {
+      "id": "vlsi-design",
+      "name": "VLSI Design",
+      "description": "CMOS technology, logic design, layout design, verification, testing",
+      "icon": "🔬"
+    },
+    {
+      "id": "dsp",
+      "name": "Digital Signal Processing",
+      "description": "DFT, FFT, digital filters, filter design, DSP processors",
+      "icon": "🎵"
+    },
+    {
+      "id": "network-theory",
+      "name": "Network Theory",
+      "description": "Circuit analysis, network theorems, two-port networks, filters",
+      "icon": "🔗"
+    },
+    {
+      "id": "electronic-devices",
+      "name": "Electronic Devices",
+      "description": "Semiconductor physics, diodes, transistors, FETs, device modeling",
+      "icon": "🔋"
+    },
+    {
+      "id": "power-electronics",
+      "name": "Power Electronics",
+      "description": "Power semiconductor devices, converters, inverters, motor drives",
+      "icon": "⚡"
+    }
+  ]
+}

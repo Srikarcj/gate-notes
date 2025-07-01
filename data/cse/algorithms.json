@@ -1,0 +1,141 @@
+{
+  "subject": "Algorithms",
+  "branch": "CSE",
+  "description": "Comprehensive study materials for algorithm design and analysis, covering fundamental concepts, complexity theory, and advanced algorithmic techniques.",
+  "lastUpdated": "2025-06-30",
+  "totalNotes": 8,
+  "notes": [
+    {
+      "id": "algo-001",
+      "title": "Introduction to Algorithms",
+      "description": "Basic concepts, algorithm analysis, asymptotic notation (Big O, Omega, Theta)",
+      "type": "pdf",
+      "url": "https://example.com/intro-algorithms.pdf",
+      "size": "2.5 MB",
+      "pages": 45,
+      "difficulty": "Beginner",
+      "topics": ["Big O Notation", "Algorithm Analysis", "Asymptotic Complexity"],
+      "downloadable": true
+    },
+    {
+      "id": "algo-002",
+      "title": "Sorting Algorithms",
+      "description": "Bubble sort, selection sort, insertion sort, merge sort, quick sort, heap sort",
+      "type": "pdf",
+      "url": "https://example.com/sorting-algorithms.pdf",
+      "size": "3.2 MB",
+      "pages": 62,
+      "difficulty": "Intermediate",
+      "topics": ["Bubble Sort", "Merge Sort", "Quick Sort", "Heap Sort", "Comparison Sorting"],
+      "downloadable": true
+    },
+    {
+      "id": "algo-003",
+      "title": "Searching Algorithms",
+      "description": "Linear search, binary search, interpolation search, exponential search",
+      "type": "pdf",
+      "url": "https://example.com/searching-algorithms.pdf",
+      "size": "1.8 MB",
+      "pages": 35,
+      "difficulty": "Beginner",
+      "topics": ["Linear Search", "Binary Search", "Search Optimization"],
+      "downloadable": true
+    },
+    {
+      "id": "algo-004",
+      "title": "Graph Algorithms",
+      "description": "BFS, DFS, shortest path algorithms (Dijkstra, Bellman-Ford), minimum spanning tree",
+      "type": "pdf",
+      "url": "https://example.com/graph-algorithms.pdf",
+      "size": "4.1 MB",
+      "pages": 78,
+      "difficulty": "Advanced",
+      "topics": ["BFS", "DFS", "Dijkstra", "Bellman-Ford", "MST", "Kruskal", "Prim"],
+      "downloadable": true
+    },
+    {
+      "id": "algo-005",
+      "title": "Dynamic Programming",
+      "description": "Principles of dynamic programming, memoization, classic DP problems",
+      "type": "pdf",
+      "url": "https://example.com/dynamic-programming.pdf",
+      "size": "3.7 MB",
+      "pages": 68,
+      "difficulty": "Advanced",
+      "topics": ["Memoization", "Tabulation", "Optimal Substructure", "Overlapping Subproblems"],
+      "downloadable": true
+    },
+    {
+      "id": "algo-006",
+      "title": "Greedy Algorithms",
+      "description": "Greedy strategy, activity selection, fractional knapsack, Huffman coding",
+      "type": "pdf",
+      "url": "https://example.com/greedy-algorithms.pdf",
+      "size": "2.9 MB",
+      "pages": 52,
+      "difficulty": "Intermediate",
+      "topics": ["Greedy Strategy", "Activity Selection", "Huffman Coding", "Fractional Knapsack"],
+      "downloadable": true
+    },
+    {
+      "id": "algo-007",
+      "title": "Divide and Conquer",
+      "description": "Divide and conquer paradigm, merge sort, quick sort, binary search, matrix multiplication",
+      "type": "pdf",
+      "url": "https://example.com/divide-conquer.pdf",
+      "size": "3.4 MB",
+      "pages": 58,
+      "difficulty": "Intermediate",
+      "topics": ["Divide and Conquer", "Recurrence Relations", "Master Theorem"],
+      "downloadable": true
+    },
+    {
+      "id": "algo-008",
+      "title": "Advanced Topics",
+      "description": "Network flows, string algorithms, computational geometry, approximation algorithms",
+      "type": "pdf",
+      "url": "https://example.com/advanced-algorithms.pdf",
+      "size": "5.2 MB",
+      "pages": 95,
+      "difficulty": "Expert",
+      "topics": ["Network Flows", "String Matching", "KMP Algorithm", "Computational Geometry"],
+      "downloadable": true
+    }
+  ],
+  "practiceProblems": [
+    {
+      "title": "Algorithm Practice Set 1",
+      "description": "50+ practice problems with solutions",
+      "url": "https://example.com/algo-practice-1.pdf",
+      "difficulty": "Mixed"
+    },
+    {
+      "title": "Previous Year GATE Questions",
+      "description": "Algorithm questions from GATE 2015-2024",
+      "url": "https://example.com/gate-algo-questions.pdf",
+      "difficulty": "GATE Level"
+    }
+  ],
+  "videoLectures": [
+    {
+      "title": "MIT Introduction to Algorithms",
+      "instructor": "Prof. Erik Demaine",
+      "url": "https://youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb",
+      "duration": "24 hours"
+    }
+  ],
+  "references": [
+    {
+      "title": "Introduction to Algorithms (CLRS)",
+      "authors": "Cormen, Leiserson, Rivest, Stein",
+      "edition": "4th Edition",
+      "isbn": "978-0262046305"
+    },
+    {
+      "title": "Algorithm Design",
+      "authors": "Jon Kleinberg, Éva Tardos",
+      "edition": "1st Edition",
+      "isbn": "978-0321295354"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "branch": "Computer Science & Engineering (CSE)",
+  "code": "cse",
+  "subjects": [
+    {
+      "id": "algorithms",
+      "name": "Algorithms",
+      "description": "Design and analysis of algorithms, complexity theory, sorting, searching, graph algorithms",
+      "icon": "🔍"
+    },
+    {
+      "id": "data-structures",
+      "name": "Data Structures",
+      "description": "Arrays, linked lists, stacks, queues, trees, graphs, hashing",
+      "icon": "🗂️"
+    },
+    {
+      "id": "programming",
+      "name": "Programming & Data Structures",
+      "description": "C/C++/Java programming, object-oriented programming, data structure implementation",
+      "icon": "💻"
+    },
+    {
+      "id": "computer-organization",
+      "name": "Computer Organization & Architecture",
+      "description": "CPU design, memory hierarchy, instruction sets, pipelining, cache memory",
+      "icon": "🖥️"
+    },
+    {
+      "id": "operating-systems",
+      "name": "Operating Systems",
+      "description": "Process management, memory management, file systems, synchronization",
+      "icon": "⚙️"
+    },
+    {
+      "id": "database-systems",
+      "name": "Database Management Systems",
+      "description": "Relational databases, SQL, normalization, transactions, indexing",
+      "icon": "🗄️"
+    },
+    {
+      "id": "computer-networks",
+      "name": "Computer Networks",
+      "description": "Network protocols, OSI model, TCP/IP, routing, network security",
+      "icon": "🌐"
+    },
+    {
+      "id": "theory-computation",
+      "name": "Theory of Computation",
+      "description": "Finite automata, regular languages, context-free grammars, Turing machines",
+      "icon": "🧮"
+    },
+    {
+      "id": "compiler-design",
+      "name": "Compiler Design",
+      "description": "Lexical analysis, syntax analysis, semantic analysis, code generation",
+      "icon": "🔧"
+    },
+    {
+      "id": "software-engineering",
+      "name": "Software Engineering",
+      "description": "Software development life cycle, testing, project management, design patterns",
+      "icon": "🏗️"
+    },
+    {
+      "id": "discrete-mathematics",
+      "name": "Discrete Mathematics",
+      "description": "Set theory, logic, combinatorics, graph theory, number theory",
+      "icon": "🔢"
+    },
+    {
+      "id": "linear-algebra",
+      "name": "Linear Algebra",
+      "description": "Matrices, vector spaces, eigenvalues, linear transformations",
+      "icon": "📐"
+    },
+    {
+      "id": "probability-statistics",
+      "name": "Probability & Statistics",
+      "description": "Probability distributions, statistical inference, hypothesis testing",
+      "icon": "📊"
+    },
+    {
+      "id": "digital-logic",
+      "name": "Digital Logic",
+      "description": "Boolean algebra, logic gates, combinational and sequential circuits",
+      "icon": "🔌"
+    }
+  ]
+}

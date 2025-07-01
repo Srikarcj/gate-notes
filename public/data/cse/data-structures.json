@@ -1,0 +1,228 @@
+{
+  "subject": "Data Structures",
+  "branch": "CSE",
+  "description": "Comprehensive study materials for data structures including arrays, linked lists, stacks, queues, trees, graphs, and hashing techniques.",
+  "lastUpdated": "2024-12-30",
+  "totalNotes": 8,
+  "estimatedStudyTime": "40 hours",
+  "notes": [
+    {
+      "id": "ds-001",
+      "title": "Introduction to Data Structures",
+      "description": "Understanding fundamental data structures and their applications",
+      "type": "content",
+      "difficulty": "Beginner",
+      "topics": ["ADT", "Complexity Analysis", "Memory Management"],
+      "content": {
+        "overview": "Data structures are ways of organizing and storing data in a computer so that it can be accessed and modified efficiently. They form the foundation of computer programming and software development.",
+        "keyPoints": [
+          {
+            "title": "What are Data Structures?",
+            "explanation": "Data structures are specialized formats for organizing, processing, retrieving and storing data. They enable efficient access and modification of data based on specific requirements."
+          },
+          {
+            "title": "Abstract Data Types (ADT)",
+            "explanation": "An ADT is a mathematical model for data types where behavior is defined by a set of values and operations. Examples include Stack, Queue, List, and Tree ADTs."
+          },
+          {
+            "title": "Time Complexity",
+            "explanation": "Measures how the execution time of an algorithm changes with input size. Common complexities: O(1) constant, O(log n) logarithmic, O(n) linear, O(n²) quadratic."
+          },
+          {
+            "title": "Space Complexity",
+            "explanation": "Measures how much additional memory an algorithm uses relative to input size. Important for memory-constrained environments."
+          }
+        ],
+        "examples": [
+          {
+            "title": "Array Access",
+            "complexity": "O(1)",
+            "explanation": "Accessing an element by index is constant time because we can calculate the memory address directly."
+          },
+          {
+            "title": "Linear Search",
+            "complexity": "O(n)",
+            "explanation": "Searching through an unsorted array requires checking each element in worst case."
+          }
+        ],
+        "practiceQuestions": [
+          "What is the difference between logical and physical data structures?",
+          "Why is choosing the right data structure important?",
+          "Compare time vs space complexity trade-offs."
+        ]
+      }
+    },
+    {
+      "id": "ds-002",
+      "title": "Arrays and Strings",
+      "description": "Mastering arrays and string manipulation techniques",
+      "type": "content",
+      "difficulty": "Beginner",
+      "topics": ["Array Operations", "String Algorithms", "Matrix Operations"],
+      "content": {
+        "overview": "Arrays are the simplest and most fundamental data structure. They store elements of the same type in contiguous memory locations, enabling efficient random access.",
+        "keyPoints": [
+          {
+            "title": "Array Characteristics",
+            "explanation": "Fixed size, homogeneous elements, contiguous memory allocation, zero-based indexing (in most languages). Access time is O(1), but insertion/deletion can be O(n)."
+          },
+          {
+            "title": "Multi-dimensional Arrays",
+            "explanation": "Arrays of arrays, commonly used for matrices. 2D array access: arr[i][j]. Memory layout can be row-major or column-major depending on language."
+          },
+          {
+            "title": "Dynamic Arrays",
+            "explanation": "Resizable arrays like ArrayList (Java), vector (C++), list (Python). They automatically resize when capacity is exceeded, typically doubling in size."
+          },
+          {
+            "title": "String Operations",
+            "explanation": "Strings are arrays of characters. Common operations: concatenation, substring, search, replace. Immutable in some languages (Java, Python)."
+          }
+        ],
+        "examples": [
+          {
+            "title": "Array Traversal",
+            "complexity": "O(n)",
+            "explanation": "Visiting each element once requires linear time proportional to array size."
+          },
+          {
+            "title": "Binary Search",
+            "complexity": "O(log n)",
+            "explanation": "Searching in sorted array by repeatedly halving search space."
+          }
+        ],
+        "practiceQuestions": [
+          "How do you reverse an array in-place?",
+          "What's the difference between static and dynamic arrays?",
+          "How do you find the maximum subarray sum?"
+        ]
+      }
+    },
+    {
+      "id": "ds-003",
+      "title": "Linked Lists",
+      "description": "Singly linked lists, doubly linked lists, circular linked lists",
+      "type": "pdf",
+      "url": "https://web.stanford.edu/class/cs9/sample_probs/LinkedListProblems.pdf",
+      "size": "2.7 MB",
+      "pages": 55,
+      "difficulty": "Intermediate",
+      "topics": ["Singly Linked List", "Doubly Linked List", "Circular Lists"],
+      "downloadable": true
+    },
+    {
+      "id": "ds-004",
+      "title": "Stacks and Queues",
+      "description": "Stack operations, queue operations, applications, priority queues",
+      "type": "pdf",
+      "url": "https://www.cs.cmu.edu/~adamchik/15-121/lectures/Stacks%20and%20Queues/Stacks%20and%20Queues.pdf",
+      "size": "2.3 MB",
+      "pages": 48,
+      "difficulty": "Intermediate",
+      "topics": ["Stack ADT", "Queue ADT", "Priority Queue", "Deque"],
+      "downloadable": true
+    },
+    {
+      "id": "ds-005",
+      "title": "Trees",
+      "description": "Binary trees, binary search trees, AVL trees, tree traversals",
+      "type": "pdf",
+      "url": "https://www.cs.cmu.edu/~adamchik/15-121/lectures/Trees/trees.pdf",
+      "size": "3.8 MB",
+      "pages": 72,
+      "difficulty": "Advanced",
+      "topics": ["Binary Trees", "BST", "AVL Trees", "Tree Traversals"],
+      "downloadable": true
+    },
+    {
+      "id": "ds-006",
+      "title": "Heaps",
+      "description": "Binary heaps, heap operations, heap sort, priority queues",
+      "type": "pdf",
+      "url": "https://www.cs.princeton.edu/courses/archive/spring02/cs226/lectures/heaps.4up.pdf",
+      "size": "2.6 MB",
+      "pages": 45,
+      "difficulty": "Intermediate",
+      "topics": ["Binary Heap", "Heap Sort", "Priority Queue Implementation"],
+      "downloadable": true
+    },
+    {
+      "id": "ds-007",
+      "title": "Hash Tables",
+      "description": "Hash functions, collision resolution, open addressing, chaining",
+      "type": "pdf",
+      "url": "https://www.cs.princeton.edu/courses/archive/spring02/cs226/lectures/hashing.4up.pdf",
+      "size": "3.1 MB",
+      "pages": 58,
+      "difficulty": "Advanced",
+      "topics": ["Hash Functions", "Collision Resolution", "Load Factor"],
+      "downloadable": true
+    },
+    {
+      "id": "ds-008",
+      "title": "Graphs",
+      "description": "Graph representation, adjacency matrix, adjacency list, graph algorithms",
+      "type": "pdf",
+      "url": "https://web.stanford.edu/class/cs97si/06-basic-graph-algorithms.pdf",
+      "size": "4.2 MB",
+      "pages": 85,
+      "difficulty": "Advanced",
+      "topics": ["Graph Representation", "Adjacency Matrix", "Adjacency List"],
+      "downloadable": true
+    }
+  ],
+  "practiceProblems": [
+    {
+      "title": "Data Structures Practice Set",
+      "description": "Comprehensive practice problems for all data structures",
+      "url": "https://www.geeksforgeeks.org/data-structures/",
+      "difficulty": "Mixed"
+    },
+    {
+      "title": "LeetCode Data Structure Problems",
+      "description": "Curated data structure problems for interview preparation",
+      "url": "https://leetcode.com/explore/learn/",
+      "difficulty": "Mixed"
+    },
+    {
+      "title": "GATE Previous Year Questions",
+      "description": "Data structure questions from GATE 2015-2024",
+      "url": "https://www.gatevidyalay.com/tag/data-structures/",
+      "difficulty": "GATE Level"
+    }
+  ],
+  "videoLectures": [
+    {
+      "title": "MIT Introduction to Algorithms",
+      "instructor": "Prof. Erik Demaine",
+      "url": "https://youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb",
+      "duration": "24 hours"
+    },
+    {
+      "title": "NPTEL Data Structures",
+      "instructor": "Prof. Naveen Garg",
+      "url": "https://nptel.ac.in/courses/106102064",
+      "duration": "40 hours"
+    },
+    {
+      "title": "Stanford CS106B Programming Abstractions",
+      "instructor": "Prof. Julie Zelenski",
+      "url": "https://web.stanford.edu/class/cs106b/",
+      "duration": "30 hours"
+    }
+  ],
+  "references": [
+    {
+      "title": "Introduction to Algorithms (CLRS)",
+      "authors": "Cormen, Leiserson, Rivest, Stein",
+      "edition": "4th Edition",
+      "isbn": "978-0262046305"
+    },
+    {
+      "title": "Data Structures and Algorithms in Java",
+      "authors": "Robert Lafore",
+      "edition": "2nd Edition",
+      "isbn": "978-0672324536"
+    }
+  ]
+}

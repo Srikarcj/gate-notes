@@ -1,0 +1,54 @@
+{
+  "branch": "Instrumentation Engineering (IN)",
+  "code": "in",
+  "subjects": [
+    {
+      "id": "measurements",
+      "name": "Measurements and Instrumentation",
+      "description": "Measurement principles, errors, calibration, standards, data acquisition",
+      "icon": "📏"
+    },
+    {
+      "id": "transducers",
+      "name": "Transducers and Sensors",
+      "description": "Temperature, pressure, flow, level sensors, smart sensors, signal conditioning",
+      "icon": "🔍"
+    },
+    {
+      "id": "control-systems",
+      "name": "Control Systems",
+      "description": "Feedback control, PID controllers, digital control, process control",
+      "icon": "🎛️"
+    },
+    {
+      "id": "process-control",
+      "name": "Process Control",
+      "description": "Industrial automation, DCS, SCADA, fieldbus, process optimization",
+      "icon": "🏭"
+    },
+    {
+      "id": "analog-circuits",
+      "name": "Analog Circuits",
+      "description": "Operational amplifiers, filters, oscillators, signal processing circuits",
+      "icon": "🔌"
+    },
+    {
+      "id": "digital-systems",
+      "name": "Digital Systems",
+      "description": "Logic circuits, microprocessors, microcontrollers, embedded systems",
+      "icon": "💻"
+    },
+    {
+      "id": "communication",
+      "name": "Communication Systems",
+      "description": "Analog and digital communication, data transmission, networking",
+      "icon": "📡"
+    },
+    {
+      "id": "biomedical",
+      "name": "Biomedical Instrumentation",
+      "description": "Medical devices, physiological measurements, imaging systems, safety",
+      "icon": "🏥"
+    }
+  ]
+}

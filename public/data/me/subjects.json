@@ -1,0 +1,54 @@
+{
+  "branch": "Mechanical Engineering (ME)",
+  "code": "me",
+  "subjects": [
+    {
+      "id": "thermodynamics",
+      "name": "Thermodynamics",
+      "description": "Laws of thermodynamics, entropy, cycles, heat engines, refrigeration",
+      "icon": "🌡️"
+    },
+    {
+      "id": "fluid-mechanics",
+      "name": "Fluid Mechanics",
+      "description": "Fluid statics, dynamics, viscous flow, turbulence, compressible flow",
+      "icon": "💧"
+    },
+    {
+      "id": "heat-transfer",
+      "name": "Heat Transfer",
+      "description": "Conduction, convection, radiation, heat exchangers, mass transfer",
+      "icon": "🔥"
+    },
+    {
+      "id": "machine-design",
+      "name": "Machine Design",
+      "description": "Design of machine elements, gears, bearings, springs, joints",
+      "icon": "⚙️"
+    },
+    {
+      "id": "manufacturing",
+      "name": "Manufacturing Processes",
+      "description": "Machining, casting, welding, forming, automation, quality control",
+      "icon": "🏭"
+    },
+    {
+      "id": "strength-materials",
+      "name": "Strength of Materials",
+      "description": "Stress, strain, bending, torsion, deflection, failure theories",
+      "icon": "🔧"
+    },
+    {
+      "id": "dynamics",
+      "name": "Dynamics of Machinery",
+      "description": "Kinematics, kinetics, vibrations, balancing, governors, flywheels",
+      "icon": "🎯"
+    },
+    {
+      "id": "ic-engines",
+      "name": "IC Engines",
+      "description": "Internal combustion engines, performance, emissions, alternative fuels",
+      "icon": "🚗"
+    }
+  ]
+}

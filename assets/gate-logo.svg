@@ -1,0 +1,16 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Blue rounded rectangle background -->
+  <rect width="64" height="64" rx="12" fill="#1E88E5"/>
+  
+  <!-- White G letter -->
+  <path d="M32 12C20.954 12 12 20.954 12 32C12 43.046 20.954 52 32 52C37.5 52 42.5 49.5 46 45.5L40 39.5C37.5 42 35 43 32 43C25.5 43 21 38.5 21 32C21 25.5 25.5 21 32 21C35.5 21 38.5 22.5 40.5 25L47 19C42.5 14.5 37.5 12 32 12Z" fill="white"/>
+  
+  <!-- Horizontal line in G -->
+  <rect x="32" y="29" width="15" height="6" fill="white"/>
+  
+  <!-- Graduation cap -->
+  <path d="M45 16L52 19L45 22L38 19L45 16Z" fill="white"/>
+  <path d="M38 19V24C38 26 41 28 45 28C49 28 52 26 52 24V19" fill="white"/>
+  <rect x="51" y="19" width="2" height="8" fill="white"/>
+  <circle cx="52" cy="27" r="1.5" fill="white"/>
+</svg>

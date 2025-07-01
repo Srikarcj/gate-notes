@@ -1,0 +1,54 @@
+{
+  "branch": "Civil Engineering (CE)",
+  "code": "ce",
+  "subjects": [
+    {
+      "id": "structural-analysis",
+      "name": "Structural Analysis",
+      "description": "Analysis of determinate and indeterminate structures, matrix methods",
+      "icon": "🏗️"
+    },
+    {
+      "id": "concrete-structures",
+      "name": "Concrete Structures",
+      "description": "RCC design, prestressed concrete, limit state design, codal provisions",
+      "icon": "🧱"
+    },
+    {
+      "id": "steel-structures",
+      "name": "Steel Structures",
+      "description": "Design of steel members, connections, industrial buildings, bridges",
+      "icon": "🔩"
+    },
+    {
+      "id": "geotechnical",
+      "name": "Geotechnical Engineering",
+      "description": "Soil mechanics, foundation design, earth pressure, slope stability",
+      "icon": "🌍"
+    },
+    {
+      "id": "water-resources",
+      "name": "Water Resources Engineering",
+      "description": "Hydrology, hydraulics, irrigation, water supply, drainage",
+      "icon": "💧"
+    },
+    {
+      "id": "transportation",
+      "name": "Transportation Engineering",
+      "description": "Highway design, traffic engineering, pavement design, railway engineering",
+      "icon": "🛣️"
+    },
+    {
+      "id": "environmental",
+      "name": "Environmental Engineering",
+      "description": "Water treatment, wastewater treatment, air pollution, solid waste management",
+      "icon": "🌱"
+    },
+    {
+      "id": "surveying",
+      "name": "Surveying",
+      "description": "Plane surveying, leveling, theodolite, GPS, remote sensing",
+      "icon": "📐"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "subject": "Control Systems",
+  "branch": "EE",
+  "description": "Comprehensive study materials for control systems including feedback control, stability analysis, and controller design.",
+  "lastUpdated": "2024-12-30",
+  "totalNotes": 8,
+  "estimatedStudyTime": "40 hours",
+  "notes": [
+    {
+      "id": "cs-001",
+      "title": "Introduction to Control Systems",
+      "description": "Basic concepts, open-loop vs closed-loop systems, feedback control",
+      "type": "pdf",
+      "url": "https://nptel.ac.in/content/storage2/courses/108105029/pdf/L-1(GC)%20((EE)NPTEL).pdf",
+      "size": "2.8 MB",
+      "pages": 45,
+      "difficulty": "Beginner",
+      "topics": ["Control Concepts", "Feedback", "Open-loop", "Closed-loop"],
+      "downloadable": true
+    },
+    {
+      "id": "cs-002",
+      "title": "Mathematical Modeling",
+      "description": "Transfer functions, block diagrams, signal flow graphs, Mason's gain formula",
+      "type": "pdf",
+      "url": "https://nptel.ac.in/content/storage2/courses/108105029/pdf/L-3(GC)%20((EE)NPTEL).pdf",
+      "size": "3.5 MB",
+      "pages": 58,
+      "difficulty": "Intermediate",
+      "topics": ["Transfer Functions", "Block Diagrams", "Signal Flow Graphs"],
+      "downloadable": true
+    },
+    {
+      "id": "cs-003",
+      "title": "Time Response Analysis",
+      "description": "First and second order systems, transient response, steady-state error",
+      "type": "pdf",
+      "url": "https://nptel.ac.in/content/storage2/courses/108105029/pdf/L-5(GC)%20((EE)NPTEL).pdf",
+      "size": "4.1 MB",
+      "pages": 65,
+      "difficulty": "Intermediate",
+      "topics": ["Time Response", "Transient Analysis", "Steady-state Error"],
+      "downloadable": true
+    },
+    {
+      "id": "cs-004",
+      "title": "Stability Analysis",
+      "description": "Routh-Hurwitz criterion, root locus technique, stability margins",
+      "type": "pdf",
+      "url": "https://nptel.ac.in/content/storage2/courses/108105029/pdf/L-8(GC)%20((EE)NPTEL).pdf",
+      "size": "3.8 MB",
+      "pages": 62,
+      "difficulty": "Advanced",
+      "topics": ["Routh-Hurwitz", "Root Locus", "Stability Margins"],
+      "downloadable": true
+    },
+    {
+      "id": "cs-005",
+      "title": "Frequency Response Analysis",
+      "description": "Bode plots, Nyquist plots, gain and phase margins, frequency domain design",
+      "type": "pdf",
+      "url": "https://nptel.ac.in/content/storage2/courses/108105029/pdf/L-12(GC)%20((EE)NPTEL).pdf",
+      "size": "4.3 MB",
+      "pages": 72,
+      "difficulty": "Advanced",
+      "topics": ["Bode Plots", "Nyquist Plots", "Frequency Response"],
+      "downloadable": true
+    },
+    {
+      "id": "cs-006",
+      "title": "Controller Design",
+      "description": "PID controllers, lead-lag compensators, controller tuning methods",
+      "type": "pdf",
+      "url": "https://nptel.ac.in/content/storage2/courses/108105029/pdf/L-15(GC)%20((EE)NPTEL).pdf",
+      "size": "3.9 MB",
+      "pages": 68,
+      "difficulty": "Advanced",
+      "topics": ["PID Control", "Lead-Lag Compensators", "Controller Tuning"],
+      "downloadable": true
+    },
+    {
+      "id": "cs-007",
+      "title": "State Space Analysis",
+      "description": "State space representation, controllability, observability, state feedback",
+      "type": "pdf",
+      "url": "https://nptel.ac.in/content/storage2/courses/108105029/pdf/L-18(GC)%20((EE)NPTEL).pdf",
+      "size": "4.2 MB",
+      "pages": 75,
+      "difficulty": "Expert",
+      "topics": ["State Space", "Controllability", "Observability"],
+      "downloadable": true
+    },
+    {
+      "id": "cs-008",
+      "title": "Digital Control Systems",
+      "description": "Sampling, z-transforms, digital controller design, discrete-time systems",
+      "type": "pdf",
+      "url": "https://nptel.ac.in/content/storage2/courses/108105029/pdf/L-22(GC)%20((EE)NPTEL).pdf",
+      "size": "3.7 MB",
+      "pages": 58,
+      "difficulty": "Expert",
+      "topics": ["Digital Control", "Z-transforms", "Discrete Systems"],
+      "downloadable": true
+    }
+  ],
+  "practiceProblems": [
+    {
+      "title": "Control Systems Practice Problems",
+      "description": "Comprehensive practice problems for control theory",
+      "url": "https://www.geeksforgeeks.org/control-systems-tutorial/",
+      "difficulty": "Mixed"
+    },
+    {
+      "title": "GATE EE Control Systems",
+      "description": "Control systems questions from GATE 2015-2024",
+      "url": "https://www.gatevidyalay.com/tag/control-systems/",
+      "difficulty": "GATE Level"
+    }
+  ],
+  "videoLectures": [
+    {
+      "title": "NPTEL Control Engineering",
+      "instructor": "Prof. Ramkrishna Pasumarthy",
+      "url": "https://nptel.ac.in/courses/108105029",
+      "duration": "40 hours"
+    },
+    {
+      "title": "MIT Feedback Control Systems",
+      "instructor": "Prof. Munther Dahleh",
+      "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-302-feedback-systems-spring-2007/",
+      "duration": "36 hours"
+    },
+    {
+      "title": "Stanford EE363 Linear Dynamical Systems",
+      "instructor": "Prof. Stephen Boyd",
+      "url": "https://stanford.edu/class/ee363/",
+      "duration": "30 hours"
+    }
+  ],
+  "references": [
+    {
+      "title": "Modern Control Engineering",
+      "authors": "Katsuhiko Ogata",
+      "edition": "5th Edition",
+      "isbn": "978-0136156734"
+    },
+    {
+      "title": "Control Systems Engineering",
+      "authors": "Norman Nise",
+      "edition": "7th Edition",
+      "isbn": "978-1118170519"
+    }
+  ]
+}

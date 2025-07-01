@@ -1,0 +1,142 @@
+{
+  "subject": "Operating Systems",
+  "branch": "CSE",
+  "description": "Complete study materials for operating systems covering process management, memory management, file systems, and synchronization.",
+  "lastUpdated": "2024-12-30",
+  "totalNotes": 7,
+  "estimatedStudyTime": "35 hours",
+  "notes": [
+    {
+      "id": "os-001",
+      "title": "Introduction to Operating Systems",
+      "description": "Basic concepts, types of OS, system calls, kernel vs user mode",
+      "type": "pdf",
+      "url": "https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/1_Introduction.html",
+      "size": "2.8 MB",
+      "pages": 45,
+      "difficulty": "Beginner",
+      "topics": ["OS Concepts", "System Calls", "Kernel Mode", "User Mode"],
+      "downloadable": true
+    },
+    {
+      "id": "os-002",
+      "title": "Process Management",
+      "description": "Process creation, scheduling algorithms, inter-process communication",
+      "type": "pdf",
+      "url": "https://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#processes",
+      "size": "3.5 MB",
+      "pages": 62,
+      "difficulty": "Intermediate",
+      "topics": ["Process Scheduling", "IPC", "Process States", "Context Switching"],
+      "downloadable": true
+    },
+    {
+      "id": "os-003",
+      "title": "Memory Management",
+      "description": "Virtual memory, paging, segmentation, memory allocation algorithms",
+      "type": "pdf",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos318/lectures/L10-VirtualMemory.pdf",
+      "size": "4.1 MB",
+      "pages": 58,
+      "difficulty": "Advanced",
+      "topics": ["Virtual Memory", "Paging", "Segmentation", "Memory Allocation"],
+      "downloadable": true
+    },
+    {
+      "id": "os-004",
+      "title": "Synchronization",
+      "description": "Critical sections, semaphores, monitors, deadlock prevention",
+      "type": "pdf",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos318/lectures/L11-Synchronization.pdf",
+      "size": "3.2 MB",
+      "pages": 48,
+      "difficulty": "Advanced",
+      "topics": ["Critical Section", "Semaphores", "Monitors", "Deadlock"],
+      "downloadable": true
+    },
+    {
+      "id": "os-005",
+      "title": "File Systems",
+      "description": "File organization, directory structures, file allocation methods",
+      "type": "pdf",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos318/lectures/L12-FileSystem.pdf",
+      "size": "3.8 MB",
+      "pages": 55,
+      "difficulty": "Intermediate",
+      "topics": ["File Organization", "Directory Structure", "File Allocation"],
+      "downloadable": true
+    },
+    {
+      "id": "os-006",
+      "title": "I/O Systems",
+      "description": "I/O hardware, I/O software, device drivers, disk scheduling",
+      "type": "pdf",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos318/lectures/L13-IO.pdf",
+      "size": "2.9 MB",
+      "pages": 42,
+      "difficulty": "Intermediate",
+      "topics": ["I/O Hardware", "Device Drivers", "Disk Scheduling"],
+      "downloadable": true
+    },
+    {
+      "id": "os-007",
+      "title": "Security and Protection",
+      "description": "Access control, authentication, security threats, protection mechanisms",
+      "type": "pdf",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos318/lectures/L14-Security.pdf",
+      "size": "3.6 MB",
+      "pages": 52,
+      "difficulty": "Advanced",
+      "topics": ["Access Control", "Authentication", "Security Threats"],
+      "downloadable": true
+    }
+  ],
+  "practiceProblems": [
+    {
+      "title": "Operating Systems Practice Questions",
+      "description": "Comprehensive practice problems for OS concepts",
+      "url": "https://www.geeksforgeeks.org/operating-systems/",
+      "difficulty": "Mixed"
+    },
+    {
+      "title": "GATE OS Previous Years",
+      "description": "Operating system questions from GATE 2015-2024",
+      "url": "https://www.gatevidyalay.com/tag/operating-system/",
+      "difficulty": "GATE Level"
+    }
+  ],
+  "videoLectures": [
+    {
+      "title": "MIT Operating System Engineering",
+      "instructor": "Prof. Frans Kaashoek",
+      "url": "https://pdos.csail.mit.edu/6.828/2020/schedule.html",
+      "duration": "36 hours"
+    },
+    {
+      "title": "NPTEL Operating Systems",
+      "instructor": "Prof. P.K. Biswas",
+      "url": "https://nptel.ac.in/courses/106105080",
+      "duration": "40 hours"
+    },
+    {
+      "title": "UC Berkeley CS162",
+      "instructor": "Prof. John Kubiatowicz",
+      "url": "https://cs162.org/",
+      "duration": "30 hours"
+    }
+  ],
+  "references": [
+    {
+      "title": "Operating System Concepts",
+      "authors": "Abraham Silberschatz, Peter Galvin, Greg Gagne",
+      "edition": "10th Edition",
+      "isbn": "978-1119320913"
+    },
+    {
+      "title": "Modern Operating Systems",
+      "authors": "Andrew S. Tanenbaum",
+      "edition": "4th Edition",
+      "isbn": "978-0133591620"
+    }
+  ]
+}

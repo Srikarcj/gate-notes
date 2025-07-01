@@ -1,0 +1,136 @@
+{
+  "subject": "Digital Electronics",
+  "branch": "ECE",
+  "description": "Complete study materials for digital electronics covering number systems, Boolean algebra, logic gates, and digital circuits.",
+  "lastUpdated": "2024-12-30",
+  "totalNotes": 7,
+  "estimatedStudyTime": "30 hours",
+  "notes": [
+    {
+      "id": "de-001",
+      "title": "Number Systems and Codes",
+      "description": "Binary, octal, hexadecimal number systems, BCD, Gray code, error detection codes",
+      "type": "pdf",
+      "url": "https://www.iitg.ac.in/scifac/qip/public_html/cd_cell/chapters/digital_electronics.pdf",
+      "size": "2.3 MB",
+      "pages": 42,
+      "difficulty": "Beginner",
+      "topics": ["Number Systems", "BCD", "Gray Code", "Error Detection"],
+      "downloadable": true
+    },
+    {
+      "id": "de-002",
+      "title": "Boolean Algebra and Logic Gates",
+      "description": "Boolean algebra laws, logic gates, truth tables, logic simplification",
+      "type": "pdf",
+      "url": "https://nptel.ac.in/content/storage2/courses/117104077/pdf/L-02(DP)(EC-NPTEL).pdf",
+      "size": "3.1 MB",
+      "pages": 55,
+      "difficulty": "Beginner",
+      "topics": ["Boolean Algebra", "Logic Gates", "Truth Tables", "Karnaugh Maps"],
+      "downloadable": true
+    },
+    {
+      "id": "de-003",
+      "title": "Combinational Logic Circuits",
+      "description": "Adders, subtractors, multiplexers, demultiplexers, encoders, decoders",
+      "type": "pdf",
+      "url": "https://nptel.ac.in/content/storage2/courses/117104077/pdf/L-05(DP)(EC-NPTEL).pdf",
+      "size": "3.8 MB",
+      "pages": 68,
+      "difficulty": "Intermediate",
+      "topics": ["Adders", "Multiplexers", "Encoders", "Decoders"],
+      "downloadable": true
+    },
+    {
+      "id": "de-004",
+      "title": "Sequential Logic Circuits",
+      "description": "Flip-flops, latches, counters, shift registers, state machines",
+      "type": "pdf",
+      "url": "https://nptel.ac.in/content/storage2/courses/117104077/pdf/L-08(DP)(EC-NPTEL).pdf",
+      "size": "4.2 MB",
+      "pages": 72,
+      "difficulty": "Advanced",
+      "topics": ["Flip-Flops", "Counters", "Shift Registers", "State Machines"],
+      "downloadable": true
+    },
+    {
+      "id": "de-005",
+      "title": "Memory Systems",
+      "description": "RAM, ROM, PROM, EPROM, EEPROM, flash memory, memory organization",
+      "type": "pdf",
+      "url": "https://nptel.ac.in/content/storage2/courses/117104077/pdf/L-12(DP)(EC-NPTEL).pdf",
+      "size": "3.5 MB",
+      "pages": 58,
+      "difficulty": "Intermediate",
+      "topics": ["RAM", "ROM", "Flash Memory", "Memory Organization"],
+      "downloadable": true
+    },
+    {
+      "id": "de-006",
+      "title": "Programmable Logic Devices",
+      "description": "PLA, PAL, CPLD, FPGA, HDL programming, Verilog basics",
+      "type": "pdf",
+      "url": "https://nptel.ac.in/content/storage2/courses/117104077/pdf/L-15(DP)(EC-NPTEL).pdf",
+      "size": "3.9 MB",
+      "pages": 65,
+      "difficulty": "Advanced",
+      "topics": ["PLA", "PAL", "FPGA", "Verilog", "HDL"],
+      "downloadable": true
+    },
+    {
+      "id": "de-007",
+      "title": "A/D and D/A Converters",
+      "description": "ADC types, DAC types, sampling, quantization, conversion techniques",
+      "type": "pdf",
+      "url": "https://nptel.ac.in/content/storage2/courses/117104077/pdf/L-18(DP)(EC-NPTEL).pdf",
+      "size": "3.2 MB",
+      "pages": 48,
+      "difficulty": "Advanced",
+      "topics": ["ADC", "DAC", "Sampling", "Quantization"],
+      "downloadable": true
+    }
+  ],
+  "practiceProblems": [
+    {
+      "title": "Digital Electronics Practice Set",
+      "description": "Comprehensive practice problems for digital circuits",
+      "url": "https://www.geeksforgeeks.org/digital-electronics-logic-design-tutorials/",
+      "difficulty": "Mixed"
+    },
+    {
+      "title": "GATE ECE Digital Electronics",
+      "description": "Digital electronics questions from GATE 2015-2024",
+      "url": "https://www.gatevidyalay.com/tag/digital-electronics/",
+      "difficulty": "GATE Level"
+    }
+  ],
+  "videoLectures": [
+    {
+      "title": "NPTEL Digital Electronics",
+      "instructor": "Prof. Santanu Chattopadhyay",
+      "url": "https://nptel.ac.in/courses/117104077",
+      "duration": "40 hours"
+    },
+    {
+      "title": "MIT Digital Systems Laboratory",
+      "instructor": "Prof. Arvind",
+      "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-111-introductory-digital-systems-laboratory-fall-2002/",
+      "duration": "30 hours"
+    }
+  ],
+  "references": [
+    {
+      "title": "Digital Design",
+      "authors": "M. Morris Mano, Michael Ciletti",
+      "edition": "5th Edition",
+      "isbn": "978-0132774208"
+    },
+    {
+      "title": "Digital Electronics: Principles and Applications",
+      "authors": "Roger Tokheim",
+      "edition": "8th Edition",
+      "isbn": "978-0073373775"
+    }
+  ]
+}

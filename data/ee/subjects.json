@@ -1,0 +1,54 @@
+{
+  "branch": "Electrical Engineering (EE)",
+  "code": "ee",
+  "subjects": [
+    {
+      "id": "electric-circuits",
+      "name": "Electric Circuits",
+      "description": "Circuit analysis, network theorems, AC/DC circuits, transient analysis",
+      "icon": "⚡"
+    },
+    {
+      "id": "electromagnetic-fields",
+      "name": "Electromagnetic Fields",
+      "description": "Maxwell's equations, electrostatics, magnetostatics, wave propagation",
+      "icon": "🧲"
+    },
+    {
+      "id": "electrical-machines",
+      "name": "Electrical Machines",
+      "description": "DC machines, transformers, induction motors, synchronous machines",
+      "icon": "⚙️"
+    },
+    {
+      "id": "power-systems",
+      "name": "Power Systems",
+      "description": "Power generation, transmission, distribution, protection, stability",
+      "icon": "🏭"
+    },
+    {
+      "id": "control-systems",
+      "name": "Control Systems",
+      "description": "Feedback control, stability, root locus, frequency response, state space",
+      "icon": "🎛️"
+    },
+    {
+      "id": "electrical-measurements",
+      "name": "Electrical Measurements",
+      "description": "Measuring instruments, bridges, transducers, data acquisition",
+      "icon": "📏"
+    },
+    {
+      "id": "analog-digital-electronics",
+      "name": "Analog and Digital Electronics",
+      "description": "Operational amplifiers, logic circuits, microprocessors, digital systems",
+      "icon": "💻"
+    },
+    {
+      "id": "power-electronics",
+      "name": "Power Electronics",
+      "description": "Power semiconductor devices, converters, inverters, motor drives",
+      "icon": "🔌"
+    }
+  ]
+}

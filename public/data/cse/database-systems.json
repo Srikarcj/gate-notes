@@ -1,0 +1,160 @@
+{
+  "subject": "Database Management Systems",
+  "branch": "CSE",
+  "description": "Comprehensive study materials for database systems including relational databases, SQL, normalization, transactions, and indexing.",
+  "lastUpdated": "2024-12-30",
+  "totalNotes": 8,
+  "estimatedStudyTime": "45 hours",
+  "notes": [
+    {
+      "id": "db-001",
+      "title": "Introduction to Database Systems",
+      "description": "Database concepts, DBMS architecture, data models, database users",
+      "type": "pdf",
+      "url": "https://www.db-book.com/slides-dir/PDF-dir/ch1.pdf",
+      "size": "2.5 MB",
+      "pages": 38,
+      "difficulty": "Beginner",
+      "topics": ["Database Concepts", "DBMS Architecture", "Data Models"],
+      "downloadable": true
+    },
+    {
+      "id": "db-002",
+      "title": "Relational Model",
+      "description": "Relational algebra, relational calculus, SQL fundamentals",
+      "type": "pdf",
+      "url": "https://www.db-book.com/slides-dir/PDF-dir/ch2.pdf",
+      "size": "3.2 MB",
+      "pages": 55,
+      "difficulty": "Intermediate",
+      "topics": ["Relational Algebra", "Relational Calculus", "SQL Basics"],
+      "downloadable": true
+    },
+    {
+      "id": "db-003",
+      "title": "SQL and Advanced Queries",
+      "description": "Complex SQL queries, joins, subqueries, views, stored procedures",
+      "type": "pdf",
+      "url": "https://www.db-book.com/slides-dir/PDF-dir/ch3.pdf",
+      "size": "4.1 MB",
+      "pages": 72,
+      "difficulty": "Intermediate",
+      "topics": ["Complex Queries", "Joins", "Subqueries", "Views"],
+      "downloadable": true
+    },
+    {
+      "id": "db-004",
+      "title": "Database Design and Normalization",
+      "description": "ER model, functional dependencies, normal forms, database design",
+      "type": "pdf",
+      "url": "https://www.db-book.com/slides-dir/PDF-dir/ch7.pdf",
+      "size": "3.8 MB",
+      "pages": 65,
+      "difficulty": "Advanced",
+      "topics": ["ER Model", "Functional Dependencies", "Normal Forms"],
+      "downloadable": true
+    },
+    {
+      "id": "db-005",
+      "title": "Indexing and Hashing",
+      "description": "B+ trees, hash indexing, bitmap indexes, query optimization",
+      "type": "pdf",
+      "url": "https://www.db-book.com/slides-dir/PDF-dir/ch11.pdf",
+      "size": "3.5 MB",
+      "pages": 58,
+      "difficulty": "Advanced",
+      "topics": ["B+ Trees", "Hash Indexing", "Query Optimization"],
+      "downloadable": true
+    },
+    {
+      "id": "db-006",
+      "title": "Transaction Management",
+      "description": "ACID properties, concurrency control, locking, deadlock handling",
+      "type": "pdf",
+      "url": "https://www.db-book.com/slides-dir/PDF-dir/ch14.pdf",
+      "size": "4.2 MB",
+      "pages": 68,
+      "difficulty": "Advanced",
+      "topics": ["ACID Properties", "Concurrency Control", "Locking"],
+      "downloadable": true
+    },
+    {
+      "id": "db-007",
+      "title": "Recovery Systems",
+      "description": "Failure classification, recovery algorithms, backup and restore",
+      "type": "pdf",
+      "url": "https://www.db-book.com/slides-dir/PDF-dir/ch16.pdf",
+      "size": "3.6 MB",
+      "pages": 52,
+      "difficulty": "Advanced",
+      "topics": ["Recovery Algorithms", "Backup", "Restore"],
+      "downloadable": true
+    },
+    {
+      "id": "db-008",
+      "title": "NoSQL and Big Data",
+      "description": "NoSQL databases, MongoDB, Cassandra, big data processing",
+      "type": "pdf",
+      "url": "https://www.mongodb.com/collateral/mongodb-architecture-guide",
+      "size": "2.8 MB",
+      "pages": 42,
+      "difficulty": "Intermediate",
+      "topics": ["NoSQL", "MongoDB", "Cassandra", "Big Data"],
+      "downloadable": true
+    }
+  ],
+  "practiceProblems": [
+    {
+      "title": "SQL Practice Problems",
+      "description": "Comprehensive SQL practice with real datasets",
+      "url": "https://www.w3schools.com/sql/sql_exercises.asp",
+      "difficulty": "Mixed"
+    },
+    {
+      "title": "Database Design Exercises",
+      "description": "ER modeling and normalization practice problems",
+      "url": "https://www.geeksforgeeks.org/database-management-system-tutorial/",
+      "difficulty": "Intermediate"
+    },
+    {
+      "title": "GATE DBMS Questions",
+      "description": "Database questions from GATE 2015-2024",
+      "url": "https://www.gatevidyalay.com/tag/database-management-system/",
+      "difficulty": "GATE Level"
+    }
+  ],
+  "videoLectures": [
+    {
+      "title": "Stanford CS145 Database Systems",
+      "instructor": "Prof. Jennifer Widom",
+      "url": "https://cs145-fa19.github.io/",
+      "duration": "40 hours"
+    },
+    {
+      "title": "MIT Database Systems",
+      "instructor": "Prof. Samuel Madden",
+      "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-830-database-systems-fall-2010/",
+      "duration": "36 hours"
+    },
+    {
+      "title": "NPTEL Database Management System",
+      "instructor": "Prof. D.B. Phatak",
+      "url": "https://nptel.ac.in/courses/106101061",
+      "duration": "40 hours"
+    }
+  ],
+  "references": [
+    {
+      "title": "Database System Concepts",
+      "authors": "Abraham Silberschatz, Henry F. Korth, S. Sudarshan",
+      "edition": "7th Edition",
+      "isbn": "978-0078022159"
+    },
+    {
+      "title": "Fundamentals of Database Systems",
+      "authors": "Ramez Elmasri, Shamkant Navathe",
+      "edition": "7th Edition",
+      "isbn": "978-0133970777"
+    }
+  ]
+}
