@@ -6,6 +6,7 @@ import {
   Trophy, 
   BarChart3, 
   BookOpen, 
+  Home, 
   Clock, 
   Target, 
   Flame,
@@ -174,11 +175,11 @@ const ProfilePage = () => {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-4">
               <Link
-                to="/study"
+                to="/"
                 className="flex items-center gap-2 px-3 py-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
               >
                 <ArrowLeft className="w-5 h-5" />
-                <span>Back to Study</span>
+                <span>Back to Home</span>
               </Link>
               <div className="h-6 w-px bg-gray-300 dark:bg-gray-600"></div>
               <h1 className="text-xl font-bold text-gray-900 dark:text-white">User Profile</h1>
@@ -406,11 +407,11 @@ const ProfilePage = () => {
               </h3>
               <div className="space-y-3">
                 <Link
-                  to="/study"
+                  to="/"
                   className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
                 >
-                  <BookOpen className="w-5 h-5 text-blue-600" />
-                  <span className="font-medium text-gray-900 dark:text-white">Continue Studying</span>
+                  <Home className="w-5 h-5 text-blue-600" />
+                  <span className="font-medium text-gray-900 dark:text-white">Back to Home</span>
                 </Link>
                 <button className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors w-full text-left">
                   <Trophy className="w-5 h-5 text-yellow-600" />

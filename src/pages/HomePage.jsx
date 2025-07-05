@@ -114,17 +114,11 @@ const HomePage = () => {
               transition={{ duration: 0.8, delay: 0.6 }}
             >
               <Link
-                to="/study"
+                to="/resources"
                 className="btn btn-primary btn-xl group w-full sm:w-auto"
               >
-                Start Free Learning Journey
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </Link>
-              <Link
-                to="/resources"
-                className="btn btn-secondary btn-xl w-full sm:w-auto"
-              >
                 Explore All Features
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
             </motion.div>
           </div>
@@ -242,11 +236,11 @@ const HomePage = () => {
               Join thousands of successful GATE candidates who achieved their dreams with our platform.
             </p>
             <Link
-              to="/study"
+              to="/resources"
               className="btn btn-primary btn-xl group"
             >
               <Star className="w-5 h-5" />
-              Get Started Today
+              Explore Resources
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
           </motion.div>

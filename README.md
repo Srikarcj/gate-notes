@@ -1,25 +1,24 @@
-# 🎓 GATE Revolution - Advanced React.js Platform
+# 🎓 GATE Revolution - Advanced GATE Preparation Platform
 
-A modern, comprehensive GATE preparation platform built with React.js, featuring AI-powered study assistance, advanced animations, and professional UI/UX design. Built with cutting-edge technologies for the best user experience.
+A modern, comprehensive GATE preparation platform built with React.js, featuring AI-powered study assistance, interactive resources, previous year papers, and professional UI/UX design. Built with cutting-edge technologies for the best learning experience.
 
 ## 🚀 Features
 
-### � Advanced Interactive Learning System
+### 📚 Comprehensive Study Resources
 - **Multi-Branch Support**: CSE, ECE, EE, ME, CE, IN with comprehensive coverage
-- **Interactive Learning Modes**: Overview, Interactive Steps, Visual Diagrams, Code Playground
-- **Step-by-Step Tutorials**: Guided learning with auto-play and manual navigation
-- **Visual Algorithm Demonstrations**: Animated visualizations for complex concepts
-- **Code Playground**: Interactive coding environment with test cases
-- **Progress Tracking**: AI-powered insights and personalized recommendations
-- **Advanced Explanations**: Complex topics broken down with examples and practice
+- **Previous Year Papers**: Extensive collection of GATE previous year questions with solutions
+- **Interactive Learning**: Step-by-step explanations and visual aids for complex topics
+- **Study Materials**: Well-organized notes and reference materials for all subjects
+- **Interactive Videos**: Engaging video content for better understanding
+- **Topper's Strategies**: Learn from the best with curated strategies from top rankers
+- **College Information**: Detailed information about top engineering colleges
 
-### 🏆 Topper's PDF Collection
-- **Real Educational Domains**: Curated PDFs from top universities and institutions
-- **Manual PDF Management**: Add your own PDFs with proper categorization
-- **All Branches Covered**: CSE, ECE, EE, ME, CE, IN with subject-wise organization
-- **localStorage Persistence**: All data saved locally in browser
-- **Full CRUD Operations**: Create, Read, Update, Delete notes
-- **Smart Organization**: Category-wise organization with view tracking and ratings
+### 🏆 Topper's Section
+- **Success Strategies**: Learn from top rankers' study plans and strategies
+- **Subject-wise Tips**: Expert advice for each GATE subject
+- **Time Management**: Effective study schedules and time management techniques
+- **Exam Strategies**: Proven methods to maximize scores
+- **Resource Recommendations**: Best books and materials recommended by toppers
 
 ### 🎨 Modern UI/UX
 - **Full Screen Design**: Immersive full-screen experience with optimized layouts
@@ -31,18 +30,12 @@ A modern, comprehensive GATE preparation platform built with React.js, featuring
 - **Enhanced Hero Section**: Full-screen hero with gradient backgrounds and floating animations
 - **Accessibility**: Keyboard navigation and screen reader support
 
-### 🧠 Advanced Learning Features
-- **Interactive Learning Modes**: Multiple ways to learn each topic
-  - **Overview Mode**: Comprehensive explanations with key concepts
-  - **Interactive Mode**: Step-by-step guided tutorials with auto-play
-  - **Visual Mode**: Algorithm visualizations and animated diagrams
-  - **Code Mode**: Interactive coding playground with test cases
-- **Progress Analytics**: AI-powered learning insights and recommendations
-- **Visual Algorithm Demonstrations**: Real-time sorting, searching, and data structure animations
-- **Code Playground**: Run, test, and modify JavaScript code examples
-- **Achievement System**: Gamified learning with goals, streaks, and rewards
-- **Study Dashboard**: Comprehensive analytics with weekly activity tracking
-- **Personalized Recommendations**: AI suggestions based on learning patterns
+### 📊 Resource Management
+- **Previous Papers**: Access to last 10+ years of GATE question papers
+- **Subject-wise Organization**: Easy navigation through different engineering branches
+- **Search Functionality**: Quickly find specific topics or questions
+- **Save Favorites**: Bookmark important resources for quick access
+- **Responsive Design**: Study on any device, anywhere
 
 ### 🔧 Technical Excellence
 - **React 18**: Latest React with hooks and modern patterns
@@ -56,31 +49,25 @@ A modern, comprehensive GATE preparation platform built with React.js, featuring
 ## 📁 Project Structure
 
 ```
-gate-notes-hub/
-├── index.html              # Main HTML file
-├── styles/
-│   └── style.css           # Comprehensive CSS with themes
-├── scripts/
-│   ├── app.js              # Main application logic
-│   ├── notes.js            # Notes management
-│   └── toppers.js          # Topper notes with localStorage
-├── data/
-│   ├── cse/
-│   │   ├── subjects.json   # CSE subjects list
-│   │   └── algorithms.json # Sample notes data
-│   ├── ece/
-│   │   └── subjects.json   # ECE subjects list
-│   ├── ee/
-│   │   └── subjects.json   # EE subjects list
-│   ├── me/
-│   │   └── subjects.json   # ME subjects list
-│   ├── ce/
-│   │   └── subjects.json   # CE subjects list
-│   └── in/
-│       └── subjects.json   # IN subjects list
-├── assets/
-│   └── logo.png           # Application logo
-└── README.md              # This file
+gate-revolution/
+├── public/                 # Static files
+├── src/
+│   ├── assets/             # Images, icons, and other static assets
+│   ├── components/         # Reusable UI components
+│   │   ├── layout/         # Layout components (Header, Footer, etc.)
+│   │   └── ui/             # UI components (Buttons, Cards, etc.)
+│   ├── pages/              # Application pages
+│   │   ├── resources/      # Resources and study materials
+│   │   ├── toppers/        # Topper strategies and tips
+│   │   └── support/        # Support and legal pages
+│   ├── store/              # State management
+│   ├── utils/              # Utility functions and helpers
+│   ├── App.jsx             # Main application component
+│   └── main.jsx            # Application entry point
+├── .gitignore             # Git ignore file
+├── package.json           # Project dependencies
+├── vite.config.js         # Vite configuration
+└── README.md              # Project documentation
 ```
 
 ## 🛠️ Tech Stack
@@ -88,21 +75,22 @@ gate-notes-hub/
 ### Frontend Framework
 - **React 18**: Latest React with hooks and modern patterns
 - **Vite**: Lightning-fast build tool and dev server
-- **React Router**: Client-side routing with smooth transitions
+- **React Router v6**: Client-side routing with smooth transitions
 
 ### Styling & UI
-- **Tailwind CSS**: Utility-first CSS framework
-- **Framer Motion**: Advanced animations and transitions
+- **Tailwind CSS**: Utility-first CSS framework with dark mode support
+- **Framer Motion**: Advanced animations and page transitions
 - **Lucide React**: Beautiful, customizable icons
-- **Custom Design System**: Consistent components and styling
+- **Headless UI**: Accessible UI components
 
 ### State Management
 - **Zustand**: Lightweight state management
-- **React Hot Toast**: Beautiful notifications
-- **localStorage**: Persistent client-side storage
+- **React Query**: Server state management and data fetching
+- **localStorage**: Persistent client-side storage for user preferences
 
 ### Development Tools
 - **ESLint**: Code linting and quality
+- **Prettier**: Code formatting
 - **PostCSS**: CSS processing and optimization
 - **Autoprefixer**: Automatic vendor prefixes
 
@@ -111,13 +99,13 @@ gate-notes-hub/
 ### Prerequisites
 - **Node.js** (version 16 or higher)
 - **npm** or **yarn** package manager
-- Modern web browser
+- Modern web browser (Chrome, Firefox, Safari, or Edge)
 
 ### Installation
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/yourusername/gate-revolution.git
    cd gate-revolution
    ```
 
@@ -126,8 +114,8 @@ gate-notes-hub/
    # Using npm
    npm install
 
-   # Using yarn
-   yarn install
+   # Using yarn (recommended)
+   yarn
    ```
 
 3. **Start Development Server**
@@ -140,7 +128,7 @@ gate-notes-hub/
    ```
 
 4. **Access the Application**
-   - Open `http://localhost:3000` in your browser
+   - Open `http://localhost:5173` in your browser
    - The app will automatically reload when you make changes
 
 ### Build for Production
@@ -157,24 +145,28 @@ The built files will be in the `dist` directory, ready for deployment.
 
 ## 📖 Usage Guide
 
-### Browsing Notes
-1. Select your branch from the dropdown (CSE, ECE, EE, ME, CE, IN)
-2. Choose a subject from the populated subject list
-3. Browse through comprehensive notes with:
-   - Difficulty levels (Beginner, Intermediate, Advanced)
-   - Topic tags for easy identification
-   - File sizes and page counts
-   - Download links (when available)
+### Accessing Study Resources
+1. Navigate to the **Resources** section
+2. Browse by category:
+   - Study Materials
+   - Interactive Videos
+   - Previous Papers
+   - AI Assistant
+3. Use the search bar to find specific topics
+4. Click on any resource to view details
 
-### Managing Topper Notes
-1. Navigate to the "🏆 Topper's Section"
-2. Fill out the form with:
-   - Note title
-   - Description (optional)
-   - PDF link (must be valid URL)
-   - Category selection
-3. View, edit, or delete your saved notes
-4. All data persists in your browser's localStorage
+### Using Previous Year Papers
+1. Go to **Resources > Previous Papers**
+2. Select your branch (CSE, ECE, etc.)
+3. Choose a year to view questions
+4. Practice with timed tests or topic-wise questions
+5. Check solutions and explanations
+
+### Learning from Toppers
+1. Visit the **Toppers** section
+2. Explore study strategies and tips
+3. Learn time management techniques
+4. Get subject-specific advice from top rankers
 
 ### Theme Switching
 - Click the moon/sun icon in the header
@@ -290,15 +282,17 @@ This project is open source and available under the [MIT License](LICENSE).
 - Google Fonts for typography
 - All contributors and testers
 
-## 📞 Support
 
-For questions, suggestions, or issues:
-- Open an issue on GitHub
-- Check existing documentation
-- Review the code comments for implementation details
+
+### Reporting Issues
+- Open an issue on our GitHub repository
+- Provide detailed information about the issue
+- Include screenshots if applicable
+- Mention your browser and device information
+
+### Feature Requests
+We welcome feature requests! Please submit them through our GitHub issues page with the "feature request" label.
 
 ---
 
-**Built with ❤️ for GATE aspirants, by GATE aspirants**
-
-*Happy studying! 🎓*
+🏆 **GATE Revolution** - Empowering your GATE preparation journey with cutting-edge technology and comprehensive resources. Happy studying! 🎓

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, useLocation } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useThemeStore } from './store/themeStore'
 import { useEffect } from 'react'
@@ -11,12 +11,19 @@ import TopBanner from './components/layout/TopBanner'
 
 // Pages
 import HomePage from './pages/HomePage'
-import StudyPage from './pages/StudyPage'
+
+import InteractiveVideosPage from './pages/InteractiveVideosPage'
+import StudyMaterialsPage from './pages/StudyMaterialsPage'
 import CommunityPage from './pages/CommunityPage'
 import ToppersPage from './pages/ToppersPage'
 import ResourcesPage from './pages/ResourcesPage'
+import PreviousPapersPage from './pages/PreviousPapersPage'
 import CollegesPage from './pages/CollegesPage'
 import ProfilePage from './pages/ProfilePage'
+import HelpCenterPage from './pages/HelpCenterPage'
+import ContactPage from './pages/ContactPage'
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage'
+import TermsOfServicePage from './pages/TermsOfServicePage'
 import NotFoundPage from './pages/NotFoundPage'
 
 // Utils
@@ -24,6 +31,7 @@ import { cn } from './utils/cn'
 
 function App() {
   const { theme, initializeTheme } = useThemeStore()
+  const location = useLocation()
 
   useEffect(() => {
     initializeTheme()
@@ -47,7 +55,7 @@ function App() {
       
       <main className="flex-1">
         <AnimatePresence mode="wait">
-          <Routes>
+          <Routes location={location} key={location.pathname}>
             <Route 
               path="/" 
               element={
@@ -61,19 +69,7 @@ function App() {
                 </motion.div>
               } 
             />
-            <Route 
-              path="/study" 
-              element={
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: -20 }}
-                  transition={{ duration: 0.3 }}
-                >
-                  <StudyPage />
-                </motion.div>
-              } 
-            />
+
             <Route
               path="/community"
               element={
@@ -100,19 +96,60 @@ function App() {
                 </motion.div>
               }
             />
-            <Route 
-              path="/resources" 
-              element={
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: -20 }}
-                  transition={{ duration: 0.3 }}
-                >
-                  <ResourcesPage />
-                </motion.div>
-              } 
-            />
+            <Route path="/resources">
+              <Route 
+                index
+                element={
+                  <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -20 }}
+                    transition={{ duration: 0.3 }}
+                  >
+                    <ResourcesPage />
+                  </motion.div>
+                } 
+              />
+              <Route 
+                path="study-materials"
+                element={
+                  <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -20 }}
+                    transition={{ duration: 0.3 }}
+                  >
+                    <StudyMaterialsPage />
+                  </motion.div>
+                } 
+              />
+              <Route 
+                path="previous-papers"
+                element={
+                  <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -20 }}
+                    transition={{ duration: 0.3 }}
+                  >
+                    <PreviousPapersPage />
+                  </motion.div>
+                } 
+              />
+              <Route
+                path="interactive-videos"
+                element={
+                  <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -20 }}
+                    transition={{ duration: 0.3 }}
+                  >
+                    <InteractiveVideosPage />
+                  </motion.div>
+                }
+              />
+            </Route>
             <Route 
               path="/colleges" 
               element={
@@ -136,6 +173,58 @@ function App() {
                   transition={{ duration: 0.3 }}
                 >
                   <ProfilePage />
+                </motion.div>
+              } 
+            />
+            <Route 
+              path="/help-center" 
+              element={
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -20 }}
+                  transition={{ duration: 0.3 }}
+                >
+                  <HelpCenterPage />
+                </motion.div>
+              } 
+            />
+            <Route 
+              path="/contact" 
+              element={
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -20 }}
+                  transition={{ duration: 0.3 }}
+                >
+                  <ContactPage />
+                </motion.div>
+              } 
+            />
+            <Route 
+              path="/privacy-policy" 
+              element={
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -20 }}
+                  transition={{ duration: 0.3 }}
+                >
+                  <PrivacyPolicyPage />
+                </motion.div>
+              } 
+            />
+            <Route 
+              path="/terms-of-service" 
+              element={
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -20 }}
+                  transition={{ duration: 0.3 }}
+                >
+                  <TermsOfServicePage />
                 </motion.div>
               } 
             />

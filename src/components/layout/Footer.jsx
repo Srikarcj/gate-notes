@@ -8,28 +8,28 @@ const Footer = () => {
     {
       title: 'Quick Links',
       links: [
-        { name: 'Browse Notes', href: '/study' },
+        { name: 'Study Materials', href: '/resources/study-materials' },
         { name: 'Community', href: '/community' },
         { name: 'Resources', href: '/resources' },
-        { name: 'Colleges', href: '/colleges' }
+        { name: 'Colleges', href: 'https://gate-ready-with-ai-colleges.netlify.app/', external: true },
+        { name: 'Toppers', href: '/toppers' }
       ]
     },
     {
-      title: 'Features',
+      title: 'Resources',
       links: [
-        { name: 'AI-Powered Learning', href: '/features/ai' },
-        { name: 'Offline Capability', href: '/features/offline' },
-        { name: 'Responsive Design', href: '/features/responsive' },
-        { name: 'Dark Mode', href: '/features/dark-mode' }
+        { name: 'Previous Papers', href: '/resources/previous-papers' },
+        { name: 'Interactive Videos', href: '/resources/interactive-videos' },
+        { name: 'Study Materials', href: '/resources/study-materials' },
+        { name: 'All Resources', href: '/resources' }
       ]
     },
     {
-      title: 'Support',
+      title: 'Legal',
       links: [
-        { name: 'Help Center', href: '/help' },
-        { name: 'Contact Us', href: '/contact' },
-        { name: 'Privacy Policy', href: '/privacy' },
-        { name: 'Terms of Service', href: '/terms' }
+        { name: 'Help Center', href: '/help-center' },
+        { name: 'Privacy Policy', href: '/privacy-policy' },
+        { name: 'Terms of Service', href: '/terms-of-service' }
       ]
     }
   ]
@@ -79,12 +79,26 @@ const Footer = () => {
                 <ul className="space-y-3">
                   {section.links.map((link) => (
                     <li key={link.name}>
-                      <Link
-                        to={link.href}
-                        className="text-gray-300 hover:text-primary-400 transition-colors duration-200"
-                      >
-                        {link.name}
-                      </Link>
+                      {link.external ? (
+                        <a
+                          href={link.href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-gray-300 hover:text-primary-400 transition-colors duration-200 flex items-center gap-1"
+                        >
+                          {link.name}
+                          <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                          </svg>
+                        </a>
+                      ) : (
+                        <Link
+                          to={link.href}
+                          className="text-gray-300 hover:text-primary-400 transition-colors duration-200"
+                        >
+                          {link.name}
+                        </Link>
+                      )}
                     </li>
                   ))}
                 </ul>
